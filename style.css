@@ -1,0 +1,155 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background: linear-gradient(297.24deg, #E8EFFC 8.25%, #FFFFFF 91.76%);
+}
+
+section{
+    height: 600px;
+    width: 550px;
+    position: absolute;
+    left: 28.97%;
+    right: 2.97%;
+    top: 10.19%;
+    bottom: 5.19%;
+    border: 1px solid rgba(48, 79, 254, 0.5);
+    border-radius: 4.74434px;
+    cursor: pointer;
+
+}
+
+.upload{
+    position: absolute;
+    left: 35.11%;
+    right: 35.11%;
+    top: 0.94%;
+    bottom: 87.99%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.0294px;
+    line-height: 29px;
+    text-align: center;
+    color: #304FFE;
+    font-size: 20px;
+}
+
+.uploadimg{
+    width: 330px;
+    height: 200.84px;
+    position: absolute;
+    left: 20.25%;
+    right: 32.99%;
+    top: 16.11%;
+    bottom: 49.04%;
+}
+
+.droparea{
+    height: 180px;
+    width: 420.5531921386719px;
+    border-radius: 6.702127933502197px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 11.98%;
+    right: 29.38%;
+    top: 55.71%;
+    bottom: 20.06%;
+    border: 1.54043px dashed #777EFF;
+    border-radius: 6.70213px;
+}
+
+.hover{
+    border: 2.54043px dashed black;
+}
+
+.valid{
+    border: 2.5px dashed green;
+}
+
+.invalid{
+    border: 2.5px dashed red; 
+}
+
+.icon{
+    height: 50.02127838134766px;
+    width: 50.02161407470703px;
+    border-radius: 0px;
+    position: absolute;
+    left: 45.14%;
+    right: 47.14%;
+    top: 7.94%;
+    bottom: 33.47%;
+}
+
+.words{
+    position: absolute;
+    left: 29.45%;
+    right: 29.42%;
+    top: 30.96%;
+    bottom: 22.07%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0851px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+    color: #43434A;
+}
+
+.or{
+    position: absolute;
+    left: 29.45%;
+    right: 29.42%;
+    top: 48.96%;
+    bottom: 22.07%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0851px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+    color: #43434A;
+}
+
+a{
+    position: absolute;
+    left: 29.45%;
+    right: 29.42%;
+    top: 74.96%;
+    bottom: 22.07%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0851px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+    color: #777EFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#submit{
+    height: 45px;
+    width: 480.5px;
+    border-radius: 7.5px;
+    position: absolute;
+    left: 6.52%;
+    right: 26.79%;
+    top: 89.29%;
+    bottom: 8.01%;
+    background: #304FFE;
+    border-radius: 7.5px;
+    outline: none;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#submit:hover{
+    transform: scale(0.8);
+    scale: 1.2;
+}
